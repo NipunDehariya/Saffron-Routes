@@ -33,7 +33,6 @@ nav {
   display: none;
 }
 .navbar-links-container a {
-  margin-right: 3rem;
   text-decoration: none;
   color: black;
   font-size: 1.1rem;
@@ -50,10 +49,26 @@ nav {
   font-weight: 600;
   transition: 0.2s;
 }
+.secondary-button-to{
+  padding: 1rem 2.5rem;
+  background-color: #FEF6E1;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
 .navbar-cart-icon {
   font-size: 1.15rem;
 }
-.primary-button:hover {
+.secondary-button-to:hover {
   background-color: rgb(234, 234, 234);
 }
 .navbar-menu-container svg {
@@ -141,7 +156,7 @@ nav {
   font-size: 1.1rem;
   cursor: pointer;
   font-weight: 600;
-  color: white;
+  color: #FEF6E1;
   transition: 0.2s;
   display: flex;
   align-items: center;
@@ -441,6 +456,7 @@ nav {
     max-width: 95vw;
   }
 }
+
 @media (max-width: 600px) {
   .home-bannerImage-container,
   .about-background-image-container {

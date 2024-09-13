@@ -3,6 +3,7 @@ import AboutBackground from "../Assets/homer2.png";
 import AboutBackgroundImage from "../Assets/map.png";
 // import Pattern from "../Assets/mandala.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -24,7 +25,7 @@ const About = () => {
           Explore the best attractions and experiences in your city with our easy-to-use chatbot integrated booking platform. From thrill-seeking adventures to family-friendly activities, we've got you covered.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Discover Attractions</button>
+          <button className="secondary-button"><Link to="/Chat">Discover Now</Link></button>
         </div>
       </div>
     </div>

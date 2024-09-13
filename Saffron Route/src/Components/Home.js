@@ -4,6 +4,9 @@ import BannerImage from "../Assets/home-banner-image.png";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 import Carousel from './Carousel';
+import Chat from './chat/Chat';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -22,7 +25,7 @@ const Home = () => {
           At <span style={{color: "#ce3734"}}>Saffron Routes</span>, we believe every journey should be remarkable. Whether you're exploring mueseums or navigating heritages, we've got it covered for you!
           </p>
           <button className="secondary-button">
-            Book Now<FiArrowRight />{" "}
+             <Link to="/Chat">Explore</Link>
           </button>
         </div>
       </div>

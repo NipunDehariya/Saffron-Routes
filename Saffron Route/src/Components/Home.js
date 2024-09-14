@@ -22,10 +22,10 @@ const Home = () => {
           Your Gateway to Memorable Travels
           </h1>
           <p className="primary-text">
-          At <span style={{color: "#ce3734"}}>Saffron Routes</span>, we believe every journey should be remarkable. Whether you're exploring mueseums or navigating heritages, we've got it covered for you!
+          At <span style={{color: "#ce3734"}}>Sanskriti-Saathi</span>, we believe every journey should be remarkable. Whether you're exploring mueseums or navigating heritages, we've got it covered for you!
           </p>
           <button className="secondary-button">
-             <Link to="/Chat">Explore</Link>
+             <a><Link to="/Chat">Explore</Link></a>
           </button>
         </div>
       </div>

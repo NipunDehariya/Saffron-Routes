@@ -1,14 +1,14 @@
 import React from "react";
 import first from "../Assets/cht22.gif";
 import second from "../Assets/location.gif";
-import third from "../Assets/ticketsss.gif";
+import third from "../Assets/tickss.gif";
 
 const Work = () => {
   const workInfoData = [
     {
       image: first,
       title: "Ask the Destination",
-      text: "Chatbot can help you to pick your next  destination",
+      text: "Chatbot can help you to pick your next destination",
     },
     {
       image: second,

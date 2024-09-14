@@ -59,7 +59,7 @@ function Chat() {
   return (
     
     <div className="App"><br></br>
-      <div style={{ position: "relative",  height: "650px", width: "1100px", overflow: "hidden", marginLeft: "auto", marginRight: "auto", backgroundImage: "url('Components/Assets/vs.png')", }}>
+      <div style={{ position: "relative",  height: "90vh", width: "90%", overflow: "hidden", marginLeft: "auto", marginRight: "auto"}}>
         <MainContainer>
           <ChatContainer>   
           <ConversationHeader>
